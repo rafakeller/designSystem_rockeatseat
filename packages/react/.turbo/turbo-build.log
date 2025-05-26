@@ -1,0 +1,19 @@
+[34m@andromeda/react:build[0m: cache hit, replaying output [2mfb3abf8d28851b27[0m
+[34m@andromeda/react:build: [0m
+[34m@andromeda/react:build: [0m> @andromeda/react@1.0.0 build
+[34m@andromeda/react:build: [0m> tsup src/index.tsx --format esm, cjs --dts --external react
+[34m@andromeda/react:build: [0m
+[34m@andromeda/react:build: [0m[34mCLI[39m Building entry: src/index.tsx
+[34m@andromeda/react:build: [0m[34mCLI[39m Using tsconfig: tsconfig.json
+[34m@andromeda/react:build: [0m[34mCLI[39m tsup v8.3.5
+[34m@andromeda/react:build: [0m[34mCLI[39m Target: es6
+[34m@andromeda/react:build: [0m[34mESM[39m Build start
+[34m@andromeda/react:build: [0m[34m[39m Build start
+[34m@andromeda/react:build: [0m[32mESM[39m [1mdist\index.mjs [22m[32m2.90 KB[39m
+[34m@andromeda/react:build: [0m[32mESM[39m ⚡️ Build success in 91ms
+[34m@andromeda/react:build: [0m[32m[39m [1mdist\index.js [22m[32m3.82 KB[39m
+[34m@andromeda/react:build: [0m[32m[39m ⚡️ Build success in 91ms
+[34m@andromeda/react:build: [0m[34mDTS[39m Build start
+[34m@andromeda/react:build: [0m[32mDTS[39m ⚡️ Build success in 3470ms
+[34m@andromeda/react:build: [0m[32mDTS[39m [1mdist\index.d.mts [22m[32m5.43 KB[39m
+[34m@andromeda/react:build: [0m[32mDTS[39m [1mdist\index.d.ts  [22m[32m5.43 KB[39m

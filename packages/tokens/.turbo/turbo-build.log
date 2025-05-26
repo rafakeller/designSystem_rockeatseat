@@ -1,0 +1,31 @@
+[33m@andromeda/tokens:build[0m: cache hit, replaying output [2mc2e29537f5f62e94[0m
+[33m@andromeda/tokens:build: [0m
+[33m@andromeda/tokens:build: [0m> @andromeda/tokens@1.0.0 build
+[33m@andromeda/tokens:build: [0m> tsup src/index.ts --format esm, cjs --dts
+[33m@andromeda/tokens:build: [0m
+[33m@andromeda/tokens:build: [0m[34mCLI[39m Building entry: src/index.ts
+[33m@andromeda/tokens:build: [0m[31mError: Cannot find module '@andromeda/ts-config/base.json'
+[33m@andromeda/tokens:build: [0mRequire stack:
+[33m@andromeda/tokens:build: [0m- C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\load-tsconfig\dist\index.cjs
+[33m@andromeda/tokens:build: [0m- C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\bundle-require\dist\index.cjs
+[33m@andromeda/tokens:build: [0m- C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\tsup\dist\chunk-VGC3FXLU.js
+[33m@andromeda/tokens:build: [0m- C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\tsup\dist\index.js
+[33m@andromeda/tokens:build: [0m- C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\tsup\dist\chunk-SNM7IVOJ.js
+[33m@andromeda/tokens:build: [0m- C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\tsup\dist\cli-default.js
+[33m@andromeda/tokens:build: [0m    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+[33m@andromeda/tokens:build: [0m    at Function.resolve (node:internal/modules/helpers:190:19)
+[33m@andromeda/tokens:build: [0m    at resolveTsConfigFromExtends (C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\load-tsconfig\dist\index.cjs:163:18)
+[33m@andromeda/tokens:build: [0m    at loadTsConfigInternal (C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\load-tsconfig\dist\index.cjs:169:26)
+[33m@andromeda/tokens:build: [0m    at loadTsConfigInternal (C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\load-tsconfig\dist\index.cjs:185:28)
+[33m@andromeda/tokens:build: [0m    at loadTsConfig (C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\load-tsconfig\dist\index.cjs:209:35)
+[33m@andromeda/tokens:build: [0m    at normalizeOptions (C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\tsup\dist\index.js:1452:48)
+[33m@andromeda/tokens:build: [0m    at async C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\tsup\dist\index.js:1494:25
+[33m@andromeda/tokens:build: [0m    at async Promise.all (index 0)
+[33m@andromeda/tokens:build: [0m    at async build (C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\node_modules\tsup\dist\index.js:1490:3)[39m
+[33m@andromeda/tokens:build: [0mnpm error Lifecycle script `build` failed with error:
+[33m@andromeda/tokens:build: [0mnpm error code 1
+[33m@andromeda/tokens:build: [0mnpm error path C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\packages\tokens
+[33m@andromeda/tokens:build: [0mnpm error workspace @andromeda/tokens@1.0.0
+[33m@andromeda/tokens:build: [0mnpm error location C:\Users\cve14412\OneDrive - Caixa Vida e Previdência\RockeatSeat\design_system\packages\tokens
+[33m@andromeda/tokens:build: [0mnpm error command failed
+[33m@andromeda/tokens:build: [0mnpm error command C:\Windows\system32\cmd.exe /d /s /c tsup src/index.ts --format esm, cjs --dts
